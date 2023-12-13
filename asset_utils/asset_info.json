@@ -1,0 +1,16 @@
+{
+    "asset1": {
+        "id":"01",
+        "name": "obj1",
+        "link": "https://drive.google.com/file/d/18ndTXSIwKF7p-YkiWif1gfcySjTH6j1n/view?usp=drive_link",
+        "author": "felipe",
+        "company": "rebelway"
+    },
+    "asset2": {
+        "id":"02",
+        "name": "obj2",
+        "link": "https://drive.google.com/file/d/1TYCSL3FjrSToDPKmADLa9xDjpKBtNue-/view?usp=drive_link",
+        "author": "felipe",
+        "company": "rebelway"
+    }
+}
