@@ -1,0 +1,36 @@
+user1:
+  url: ""
+  port: 5000
+  id: 34435
+  name: "Tom Bersley"
+  age: 34
+  department: "Technical Art"
+  role: "Technical Artists Line Manager"
+
+user2:
+  url: ""
+  port: 5000
+  id: 87729
+  name: "Sophie Tweedy"
+  age: 30
+  department: "Global Supervision"
+  role: "Line manager Supervisor"
+
+user3:
+  url: ""
+  port: 5000
+  id: 89182
+  name: "Carl Sanders"
+  age: 43
+  department: "Design"
+  role: "Designer Line Manger"
+
+user4:
+  url: ""
+  port: 5000
+  id: 91281
+  name: "Steward Thompson"
+  age: 32
+  department: "Development"
+  role: "developer line manager"
+

@@ -1,0 +1,70 @@
+user1:
+  url: ""
+  port: 5000
+  id: 12386
+  name: "Eric Thompson"
+  age: 22
+  department: "Technical Art"
+  role: "Technical Artist"
+  machine: "Sirius"
+
+user2:
+  url: ""
+  port: 5000
+  id: 87729
+  name: "Amy Stevens"
+  age: 30
+  department: "Global Supervision"
+  role: "Supervisor"
+  machine: "Storm"
+
+
+user3:
+  url: ""
+  port: 5000
+  id: 89182
+  name: "Steve Williams"
+  age: 27
+  department: "Design"
+  role: "UI Designer"
+  machine: "Scar"
+
+user4:
+  url: ""
+  port: 5000
+  id: 91281
+  name: "Amy Stevens"
+  age: 22
+  department: "Development"
+  role: "Full stack developer"
+  machine: "Binary"
+
+user5:
+  url: ""
+  port: 5000
+  id: 89876
+  name: "Lauren Michaels"
+  age: 35
+  department: "Human Resources"
+  role: "Line Manager"
+  machine: "Sunlight"
+
+user6:
+  url: ""
+  port: 5000
+  id: 87912
+  name: "David Wilson"
+  age: 28
+  department: "Technical Art"
+  role: "Senior Technical Artist"
+  machine: "Rainfall"
+
+user7:
+  url: ""
+  port: 5000
+  id: 87912
+  name: "Felipe Pesantez"
+  age: 28
+  department: "Development"
+  role: "Development Manager"
+  machine: "felipepesantez"
