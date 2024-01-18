@@ -1,3 +1,4 @@
+from abc import ABC, abstractmethod
 from tkinter import *
 from tkinter import filedialog
 import zipfile
@@ -51,11 +52,19 @@ class FolderInterface:
 
         self.window.mainloop()
 
-    #open dir function
+    #open dir method
+    def openDirectory(self):
+        self.opened_dir = filedialog.askdirectory()
+        file_explorer = openFolder()
+        self.zip_files = file_explorer.getListOfElements(self.opened_dir, ".zip")
+        self.central_canvas.itemconfig(self.central_text, text=f"{len(self.zip_files)} zip files found in: {self.opened_dir}")
+
+    """
     def openDirectory(self):
         self.opened_dir = filedialog.askdirectory()
         self.zip_files = [file for file in os.listdir(self.opened_dir) if file .endswith(".zip")]
         self.central_canvas.itemconfig(self.central_text, text=f"{len(self.zip_files)} zip files found in: {self.opened_dir}")
+    """
 
     def unzipAllBtn(self):
         zip1 = UnzipUtils(self.opened_dir)
@@ -81,6 +90,17 @@ class FolderInterface:
 
         data = pd.read_csv("file_list.csv")
         print(data)
+
+class Explorer(ABC):
+    @abstractmethod
+    def getListOfElements(self, path, extension):
+        pass
+
+class openFolder(Explorer):
+    def getListOfElements(self, path, extension):
+        self.requested_files = [file for file in os.listdir(path) if file .endswith(f"{extension}")]
+        return self.requested_files
+
 
 
 if __name__ == "__main__":
